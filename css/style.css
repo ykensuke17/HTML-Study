@@ -40,8 +40,8 @@ a:hover {
 /* ここから自分で足した */
 
 .logo-size {
-  width: 10vh;
-  height: 10vh;
+  width: 90px;
+  height: 90px;
   margin: 10px;
 }
 
@@ -58,14 +58,14 @@ a:link {
 .about-container {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 40vh;
+  width: 100%;
   background-image: url("/img/about.jpg");
 }
 
 .team-name {
   color: lightgreen;
   font-size: 60px;
+  margin: 0 0 0 20px;
 }
 
 .about-text {
@@ -73,5 +73,55 @@ a:link {
   font-size: 20px;
   width: 50%;
   height: 100%;
+  margin: 20px;
   word-break: break-all;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+.member-container-text {
+  color: lightgreen;
+  font-size: 30px;
+  margin: 0 0 0 20px;
+}
+
+.member-container-memberlist {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.members {
+  background-color: #0f1923;
+  width: 16%;
+  margin: 0 2% 2% 2%;
+}
+
+.members img {
+  width: 80%;
+}
+
+.member-size {
+  margin: 10%;
+}
+
+.member-name {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.gametitle-continer {
+  width: 100%;
+}
+
+.gametitle-container-header {
+  color: lightgreen;
 }
