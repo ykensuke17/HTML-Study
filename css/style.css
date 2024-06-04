@@ -52,7 +52,7 @@ a:hover {
 
 a:link {
   color: green;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .about-container {
@@ -87,7 +87,7 @@ a:link {
 .member-container-text {
   color: lightgreen;
   font-size: 30px;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 2%;
 }
 
 .member-container-memberlist {
@@ -118,10 +118,61 @@ a:link {
   text-align: center;
 }
 
-.gametitle-continer {
+.gametitle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
+  background-color: #0f1923;
 }
 
-.gametitle-container-header {
+.gametitle-container-text {
   color: lightgreen;
+  font-size: 30px;
+  margin: 5% 0 0 8%;
+}
+
+.gametitles {
+  background-color: rgb(252, 207, 214);
+  width: 16%;
+  margin: 0 3% 5% 3%;
+}
+
+.gametitles img {
+  width: 80%;
+}
+
+.gametitle-size {
+  margin: 10%;
+}
+
+.gametitle-name {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(250, 149, 138);
+}
+
+.contact-container-title {
+  color: lightgreen;
+  font-size: 30px;
+  margin: 0 0 0 5%;
+}
+
+.contact-container-text {
+}
+
+@media screen and (max-width: 480px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
+  .team-name {
+    font-size: 24px;
+  }
 }
